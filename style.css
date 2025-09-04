@@ -1,0 +1,127 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+.logo{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+.contanier{
+    padding: 20px;
+  display: grid;
+  grid-template-columns: 30% 70%; 
+  height: 100vh; 
+}
+.contanier-form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+table{
+    background-color: white;
+    padding: 50px;
+    width: 100%;
+  border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453);
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+}
+
+table th {
+  background-color: rgba(9, 9, 121, 1);
+
+  color: white;
+  text-transform: uppercase;
+}
+
+table tr:hover{
+    background-color: rgba(18, 18, 216, 0.401);
+}
+
+form{
+    width: 300px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453);
+}
+select{
+        height: 30px;
+    width: 200px;
+    border: none;
+
+}
+select:focus {
+  outline: none;        
+}
+.input-container{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(119, 119, 119);
+    padding: 5px;
+    border-radius: 15px;
+}
+svg{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    border: none;
+}
+
+input:focus {
+  outline: none;        
+}
+
+.input-container:hover{
+border-color:rgba(9, 9, 121, 1);
+box-shadow: 0px 0px 5px rgba(9, 9, 121, 1);
+
+}
+button{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #090979;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contanier-form-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
