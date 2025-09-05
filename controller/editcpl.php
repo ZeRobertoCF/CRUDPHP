@@ -41,5 +41,5 @@ setTimeout(() => {
         m.style.opacity = "0";
         setTimeout(()=> m.remove(), 700);
     }
-}, 2000); // ahora 2 segundos
+}, 2000); 
 </script>

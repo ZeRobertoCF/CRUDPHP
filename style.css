@@ -85,6 +85,9 @@ select:focus {
     padding: 5px;
     border-radius: 15px;
 }
+h1{
+    color: #090979;
+}
 svg{
     width: 30px;
     height: 30px;
